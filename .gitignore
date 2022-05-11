@@ -1,4 +1,4 @@
 *.lk
 *.int
-.dmb
-.rsc
+*.dmb
+*.rsc
