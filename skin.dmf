@@ -1,0 +1,198 @@
+macro "macro"
+	elem 
+		name = "A"
+		command = "solidballs"
+		is-disabled = false
+	elem 
+		name = "C"
+		command = "colour"
+		is-disabled = false
+	elem 
+		name = "D"
+		command = "infinite"
+		is-disabled = false
+	elem 
+		name = "F"
+		command = "solidwalls"
+		is-disabled = false
+	elem 
+		name = "G"
+		command = "trails"
+		is-disabled = false
+	elem 
+		name = "P"
+		command = "pause"
+		is-disabled = false
+	elem 
+		name = "R"
+		command = ".reconnect"
+		is-disabled = false
+	elem 
+		name = "S"
+		command = "sparkle"
+		is-disabled = false
+	elem 
+		name = "ADD"
+		command = "size up"
+		is-disabled = false
+	elem 
+		name = "SUBTRACT"
+		command = "size down"
+		is-disabled = false
+	elem 
+		name = "+"
+		command = "size up"
+		is-disabled = false
+	elem 
+		name = "-"
+		command = "size down"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 281,0
+		size = 800x800
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;is-minimized;is-maximized"
+		on-size = ""
+		title = ""
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = ""
+		on-close = ""
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 800x800
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = none
+		background-color = #ff80ff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = true
+		right-click = true
+		saved-params = ""
+		on-size = ""
+		icon-size = 0
+		text-mode = false
+		letterbox = true
+		zoom = 0
+		on-show = ""
+		on-hide = ""
+		style = ""
+
+window "window1"
+	elem "window1"
+		type = MAIN
+		pos = 281,0
+		size = 560x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = false
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = ""
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "output1"
+		type = OUTPUT
+		pos = 0,0
+		size = 560x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+

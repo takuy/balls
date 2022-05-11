@@ -1,0 +1,22 @@
+// DM Environment file for Balls of Reaction.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "__test flags.dm"
+#include "_settings.dm"
+#include "Balls of Reaction.dm"
+#include "HUD.dm"
+#include "skin.dmf"
+// END_INCLUDE
